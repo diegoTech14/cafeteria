@@ -1,0 +1,88 @@
+footer{
+    background-color: #373634;
+}
+
+.info-footer{
+    display:flex;
+    padding:40px;
+}
+
+.about-us-icon div{
+    display:flex;
+    align-items: center;
+}
+
+
+
+.about-us-icon div h3{
+    color:#FFFFFF;
+}
+
+.about-us-icon .about-us{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:20px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-us-icon .about-us h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-bottom:20px;
+}
+
+.about-us-icon .about-us p{
+    width:400px;
+}
+
+.about-us-icon .image-cafeteria{
+    width:100px;
+    height:100px;
+}
+
+.footer-explore{
+    padding:40px;
+    text-align: center;
+}
+
+.footer-explore h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    color:#FFFFFF;
+    margin-bottom:40px;
+}
+
+.footer-explore ul li{
+    list-style-type: none;
+    margin:20px;
+    width:200px;
+}
+
+.footer-explore ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.footer-visit{
+    padding:40px;
+}
+.footer-visit h3{
+    text-align: center;
+    color:#FFFFFF;
+    margin-bottom:20px;
+}
+
+.footer-visit {
+    color:#FFFFFF;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .author-footer{
+    padding:3px;
+    font-size:20px;
+    text-align: center;
+    background-color: #232322;
+}

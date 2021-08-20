@@ -1,0 +1,98 @@
+article{
+    width:100%;
+    margin:auto;
+}
+
+article{
+    display:grid;
+    grid-template-columns: repeat(3, 33%);
+    width:1124px;
+}
+
+article section{
+    position:relative;
+    width:350px;
+    height:250px;
+    margin:20px 10px 20px 10px;
+    /*Ocultar los elementos que hay fuera del contenedor*/
+    overflow: hidden;
+}
+
+article section img{
+    width:100%;
+    height:100%;
+    transition: all 0.7s ease-in-out;
+}
+
+article section .overlay{
+    transition: all 500ms ease-out;
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(225, 198, 126, 0.4);
+    text-align: center;
+    display:flex;
+    opacity:0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gallery{
+    width:100%;
+    background-color: #FFFFFF;
+}
+
+.gallery h1{
+    text-align: center;
+    padding: 70px;
+    color: #373634;
+    font-size:35px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+article section .overlay h3{
+    color:#FFFFFF;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:30px;
+    margin-bottom:20px;
+    position:relative;
+    top:-70px;
+    transition: all 500ms ease-out;
+}
+
+article section .overlay p{
+    color:#FFFFFF;
+    font-family: 'Cairo', sans-serif;
+    font-size:18px;
+    text-align: justify;
+    padding:20px;
+    position:relative;
+    top:150px;
+    line-height: 1.5;
+    transition: all 500ms ease-out;
+}
+
+article section:hover .overlay{
+    opacity:1;
+}
+
+article section:hover .overlay h3{
+    top:0px;
+    margin-bottom:20px;
+}
+
+article section:hover .overlay p{
+    top:0px;
+    margin-top:20px;
+}
+
+article section:hover .overlay{
+    animation: showOverlay 1s;
+}
+
+article section:hover img{
+    transform: scale(1.1);
+}

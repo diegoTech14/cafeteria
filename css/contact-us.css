@@ -1,0 +1,71 @@
+.container-find-us-contact{
+    background-color: #E7D79C;
+    display:flex;
+}
+
+.google-maps-container iframe{
+    border-radius: 5px;
+}
+
+.google-maps-container{
+    width: min-content;
+    height: min-content;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #fff;
+    border-radius: 5px;
+    position:relative;
+    bottom:80px;
+    left:150px;
+}
+
+.contact-information{
+    font-family: 'Merriweather Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:50px;
+    padding-left: 400px;
+    color:#373634;
+    font-size:20px;
+}
+
+.contact-information p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.contact-information .email-information, .phone-information{
+    display:flex;
+    margin-bottom:15px;
+}
+
+.contact-information i{
+    margin-right:30px;
+}
+
+.social-networks{
+    margin-top:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-networks i{
+    margin-right:30px;
+    font-size:25px;
+    transition: all 0.4s ease-in-out;
+}
+
+.social-networks a{
+    text-decoration: none;
+}
+.social-networks a i{
+    color:#373634;
+}
+
+.social-networks i:hover{
+    color:#B5A157;
+}
